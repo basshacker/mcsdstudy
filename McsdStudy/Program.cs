@@ -10,6 +10,7 @@ namespace McsdStudy
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Testing Testing Testing");
         }
     }
 }
