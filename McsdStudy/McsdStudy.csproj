@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExampleLoader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -48,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Examples\Examples.csproj">
+      <Project>{67939d1b-cabc-42ef-91f1-577d2bd5f9df}</Project>
+      <Name>Examples</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{a2a28a35-dd23-4b8b-839b-67737974194b}</Project>
       <Name>Interfaces</Name>

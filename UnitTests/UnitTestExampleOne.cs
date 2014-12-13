@@ -13,5 +13,15 @@ namespace UnitTests
 
             Assert.IsTrue(example.Initialize());
         }
+
+        [TestMethod]
+        public void TestRun()
+        {
+            Examples.ExampleOne example = new Examples.ExampleOne();
+
+            Assert.IsTrue(example.Initialize());
+
+            example.Run(new string[1]);
+        }
     }
 }
