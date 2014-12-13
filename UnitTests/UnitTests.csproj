@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ContextAwareUnitTest.cs" />
     <Compile Include="UnitTestExampleOne.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
